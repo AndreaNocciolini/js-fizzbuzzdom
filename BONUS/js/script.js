@@ -23,15 +23,15 @@ for (let i = 1; i < 101; i++) {
     }
 
     if (numbRandom % 3 == 0 && numbRandom % 5 == 0) {
-        element.innerHTML = "FizzBuzz";
+        element.innerHTML = `FizzBuzz (${numbRandom})`;
         element.classList.add(`pink-box`);
     }
     else if (numbRandom % 3 == 0){
-        element.innerHTML = "Fizz";
+        element.innerHTML = `Fizz (${numbRandom})`;
         element.classList.add(`green-box`);
     }
     else if (numbRandom % 5 == 0) {
-        element.innerHTML = "Buzz";
+        element.innerHTML = `Buzz (${numbRandom})`;
         element.classList.add(`yellow-box`);
     }
     else {
